@@ -18,10 +18,10 @@ If no starting values are supplied, the programme successfully hunts for "hello"
 ### Version Differences
 Two versions of Phrase Hunter are included:
 - Hunter64 works on the Commodore 64, VIC20 and all other Commodore BASIC systems
-- Hunter128 works on the C128 and Plus/4 systems
+- Hunter128 works on C128 and Plus/4 systems
 
 The main difference is the use of DO/LOOPs on the 128 version and a faster string comparison using INSTR. 
-These methods do not exist and have been re-written on the C64 verison.
+These methods do not exist and have been re-written in the C64 verison.
 
 The .BAS files are clear text versions, whereas the .PRG versions can be loaded directly from Commodore BASIC 
 (using real hardware or an emulator of your choice).
@@ -31,7 +31,7 @@ https://github.com/mist64/cbmbasic
 
 
 ### How it works and what it does
-The RND function on Commodore BASIC generates a pseudo-random number from a long number sequence which is calculated by a KERNAL routine 
+The RND function in Commodore BASIC generates a pseudo-random number from a long number sequence which is calculated by a KERNAL routine 
 at $E097. When the same negative starting seed is used (for example, RND(-1)), the exact same sequence of random numbers is generated. 
 It is therefore possible to generate phrases from those results by translating random numbers into ASCII characters.
 
@@ -45,4 +45,4 @@ To hunt for your desired input, PHRASE HUNTER does the following:
 - stops when a match is found and tells you parameters to recreate the search
 - or continues hunting with the next seed
 
-Future versions will hunt for more than 255 characters
+Future versions will hunt for more than 255 characters from any given seed.
