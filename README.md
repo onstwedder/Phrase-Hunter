@@ -27,8 +27,8 @@ The .BAS files are clear text versions, whereas the .PRG versions can be loaded 
 The .CBM file can be run from the command line on modern machines using Michael Steil's CBM BASIC Scripting Implementation:
 https://github.com/mist64/cbmbasic
 
-### How It Works and what it does ###
 
+### How it works and what it does
 The RND function on Commodore BASIC generates a pseudo-random number from a long number sequence which is calculated by a KERNAL routine 
 at $E097. When the same negative starting seed is used (for example, RND(-1)), the exact same sequence of random numbers is generated. 
 It is therefore possible to generate phrases from those results by translating random numbers into ASCII characters.
