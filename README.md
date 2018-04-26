@@ -13,6 +13,8 @@ Type RUN to confirm it works, then use your favourite SAVE or DSAVE method to im
 
 If no starting values are supplied, the programme successfully hunts for "hello" with a starting seed of 810.
 
+<img src="images/screenshot.png">
+
 ### Version Differences
 Two versions of Phrase Hunter are included:
 - Hunter64 works on the Commodore 64, VIC20 and all other Commodore BASIC systems
