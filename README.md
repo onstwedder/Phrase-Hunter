@@ -35,7 +35,7 @@ The RND function in Commodore BASIC generates a pseudo-random number from a long
 at $E097. When the same negative starting seed is used (for example, RND(-1)), the exact same sequence of random numbers is generated. 
 It is therefore possible to generate phrases from those results by translating random numbers into ASCII characters.
 
-The inlucded "hello demo" does just that: it generates random numbers between 69 and 79, translates those into ASCII characters and - 
+The included "hello demo" does just that: it generates random numbers between 69 and 79, translates those into ASCII characters and - 
 upon jumping into the correct spot in the random number sequence - produces the phrase HELLO.
 
 To hunt for your desired input, PHRASE HUNTER does the following:
